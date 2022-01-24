@@ -79,7 +79,7 @@ function App() {
     <div className="App">
       <MapContainer 
         center={[59.93, 30.30]} 
-        zoom={10} 
+        zoom={zoom} 
         scrollWheelZoom={false}
         >
         <TileLayer
